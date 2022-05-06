@@ -7,9 +7,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-}
-
 .main {
   height: 40vw;
   display: flex;
