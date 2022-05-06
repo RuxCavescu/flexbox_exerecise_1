@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+}
+
+.main {
+  height: 40vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.main__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background-color: antiquewhite;
+  margin: 20px;
+}
+
+.main__list ul {
+  padding: 0px;
+}
+
+.main__boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27%;
+  height: 200px;
+  background-color: aqua;
+}
